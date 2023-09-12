@@ -31,9 +31,9 @@ public class Board {
 	}
 
 	public boolean thereIsAPicie(Position position) {
-		if(!positionExist(position)) {
+		if (!positionExist(position)) {
 			throw new BoardException("position not on board");
-		}		
+		}
 		return piece(position) != null;
 	}
 
